@@ -12,7 +12,7 @@ require('dotenv').config();
 
 function fetchIPInfo() {
     var ipAddress = document.getElementById('search-bar').value;
-    const apiKey = process.env.API_KEY;
+    var apiKey = process.env.API_KEY;
     var apiUrl = `https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}&ipAddress=${ipAddress}`
 
     // Making a request to the API
