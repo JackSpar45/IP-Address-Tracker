@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <title>Global IP Address Tracker</title>
+
+</head>
+<body>
+  <div class="header">
+      <h1 class="headline">IP Address Tracker</h1>
+      <div class="container">
+
+      <input type = "text" class="search-bar" id="search-bar" placeholder="Search for any IP address or domain">
+      <img src="./images/icons8-next-page-100.png" class="search" onclick="fetchIPInfo()">
+
+    </div>
+  </div>
+
+  <div class="info">
+    <section class="sec">
+      <div class="separator" style="background-color:rgba(255, 255, 255, 0)"></div>
+      <p class="name">IP ADDRESS</p>
+      <p class="val"> 192.233.12.10 </p>
+     
+    </section>
+    <section class="sec">
+      <div class="separator"></div>
+      <p class="name">LOCATION</p>
+      <p class="val" style="margin-bottom:-15px; margin-top:-5px"> Bengaluru</p>
+      <p class="val2">IN</p>
+      
+    </section>
+    <section class="sec">
+      <div class="separator"></div>
+      <p class="name">TIMEZONE (UTC)</p>
+      <p class="val">+05:30 </p>
+      
+    </section>
+    <section class="sec">
+      <div class="separator"></div>
+      <p class="name">ISP</p>
+      <p class="val"> SpaceX Starlink </p>
+    </section>
+  </div>
+  
+  <div class="map" id="map">
+
+  </div>
+ 
+
+  <script src="map.js" ></script>  
+</body>
+</html>

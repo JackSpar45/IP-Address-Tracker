@@ -1,0 +1,117 @@
+.header{
+    background-image: url('./images/binary-code-stream-digital-data-codes-hacker-vector-23395369.jpg');
+    width:100% ; 
+    height:250px;
+}
+.headline{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 2em;
+    font-weight: 1000;
+    margin-top: -8px;
+    padding-top: 10px;
+    text-shadow: 0 0 15px rgba(170, 125, 120, 2);
+    
+}
+.container{
+    text-align: center;
+}
+.search-bar{
+    width:30%;
+    height:45px;
+    border:none;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 15px;
+    font-size: large;
+    padding-left:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.search{
+    height:48px;
+    margin-bottom:-16px;
+    margin-left: -3.5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor:pointer;
+
+}
+.info{
+    background-color: white;
+    height:140px;
+    width:80%;
+    /*border:0.5px solid black; */ 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:auto;
+    border-radius: 15px;
+    margin-top:-70px;
+    position: relative;
+    z-index:2;
+    box-shadow: 0 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info .sec{
+    margin:15px;
+    margin-top: 40px;
+    padding:5px;
+    text-align: center;
+    width:100%;
+}
+.info .sec .name{
+    color:grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.info .sec .val, .info .sec .val2{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    
+}
+.info .sec .separator{
+    width:1.5px;
+    background-color: rgb(200, 200, 200);
+    height:60px;
+    margin-left:-20px;
+    margin-bottom: -90px;
+    
+}
+.map{
+    width:100%;
+    background-color: antiquewhite;
+    height:calc(100vh - 150px);
+    margin-top:-75px;
+    position:relative;
+    bottom:0;
+    z-index:1;
+}
+/* Media Query for mobile devices */
+@media only screen and (max-width:600px){
+    .header{
+        background-image: url('./images/binary-code-stream-digital-data-codes-hacker-vector-23395369.jpg');
+        width:100% ; 
+        height:450px;
+    }
+    .info{
+        flex-direction:column;
+        align-items:flex-start;
+        height:auto;
+        padding:0px;
+        margin-top:-250px;
+    }
+    .info .sec{
+        margin-top:-5px;
+        margin-left:0px;
+        height:12vh;
+        
+    }
+    .info .sec .separator{
+        display:none;
+    }
+    .map{
+        margin-top:-150px;
+    }
+}
