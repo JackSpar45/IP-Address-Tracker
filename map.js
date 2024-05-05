@@ -6,7 +6,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var marker = L.marker([12.975955, 77.587681]).addTo(map);
 
-
+require('dotenv').config();
 
 // linking geoipify api
 
