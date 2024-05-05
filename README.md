@@ -25,6 +25,7 @@ A demonstration of the application can be accessed [here](https://drive.google.c
 ## Screenshots
 
 ![Screenshot 1](/images/Screenshot-1.png)
+
 ![Screenshot 2](/images/Screenshot-2.png)
 
 ## Acknowledgements
