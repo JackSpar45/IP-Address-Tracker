@@ -20,12 +20,12 @@ IP Address Tracker is a web application designed to provide users with detailed 
 
 ## Demo Video
 
-A demonstration of the application can be accessed [here](#) (replace # with your live demo link).
+A demonstration of the application can be accessed [here](https://drive.google.com/file/d/1Hxb7DfSrsPDQetfZbk4mS8vq9AcSKGIM/view?usp=drivesdk) 
 
 ## Screenshots
 
-![Screenshot 1](/screenshots/screenshot1.png)
-![Screenshot 2](/screenshots/screenshot2.png)
+![Screenshot 1](/images/Screenshot-1.png)
+![Screenshot 2](/images/Screenshot-2.png)
 
 ## Acknowledgements
 
