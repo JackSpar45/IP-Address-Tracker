@@ -30,5 +30,5 @@ A demonstration of the application can be accessed [here](https://drive.google.c
 
 ## Acknowledgements
 
-- Leaflet.js: [https://leafletjs.com/](https://leafletjs.com/)
+- LeafletJS: [https://leafletjs.com/](https://leafletjs.com/)
 - GeoIPify API: [https://geo.ipify.org/](https://geo.ipify.org/)
